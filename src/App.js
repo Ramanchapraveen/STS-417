@@ -1,15 +1,18 @@
-import logo from './logo.svg';
+import React,{useState} from 'react';
 import './App.css';
-
+import Routes from './routes/index';
+ 
 function App() {
+   
 
-  
-
+ 
   return (
-    <div className="App">
-      "Hello"
-
-    </div>
+    <>
+      
+          
+         <Routes  />
+        
+    </>
   );
 }
 
