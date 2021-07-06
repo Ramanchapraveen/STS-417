@@ -1,0 +1,21 @@
+.visitingPlace {
+  margin-top: 30px;
+  text-align: justify;
+}
+.visitingPlace p {
+  font-size: large;
+}
+.visitingPlace img {
+  width: 100%;
+  height: auto;
+}
+.lineOnPlace {
+  border: 1px solid rgb(153, 153, 153);
+}
+
+p {
+  font-weight: 550;
+}
+h2 {
+  font-weight: 700;
+}
