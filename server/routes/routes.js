@@ -50,7 +50,7 @@ router.post('/images/post', fileUpload,(req, res) => {
 
 
  
-        conn.query('INSERT INTO image (type,name,data,destination) values(?,?,?,?)', [type, name, data,destination], (err, rows) => {
+        conn.query('INSERT INTO image (type,name,destination) values(?,?,?)', [type, name,destination], (err, rows) => {
             if(err) return res.status(500).send(err)
 
             res.send('image saved!')
